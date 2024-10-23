@@ -29,7 +29,10 @@ export default function Component() {
             </Button>
           </a>
 
-          <a href="https://www.ifood.com.br/delivery/manaus-am/memorias-de-ana-coroado/4bbbe952-1550-41ed-b52a-5467c4a7d1be?UTM_Medium=share">
+          <a
+            className="flex mt-5"
+            href="https://www.ifood.com.br/delivery/manaus-am/memorias-de-ana-coroado/4bbbe952-1550-41ed-b52a-5467c4a7d1be?UTM_Medium=share"
+          >
             <Button
               className="w-full bg-white text-black hover:bg-gray-100 flex items-center px-4 py-3 rounded-xl relative shadow-sm transition-all duration-200 ease-in-out hover:shadow-md"
               variant="ghost"
