@@ -42,13 +42,15 @@ export default function Component() {
             </Button>
           </a>
 
-          <Button
-            className="w-full bg-white text-black hover:bg-gray-100 flex items-center px-4 py-3 rounded-xl relative shadow-sm transition-all duration-200 ease-in-out hover:shadow-md"
-            variant="ghost"
-          >
-            <Instagram className="h-6 w-6 absolute left-4 text-[#E4405F]" />
-            <span className="flex-grow text-center">Instagram</span>
-          </Button>
+          <a href="https://www.instagram.com/memoriasdeanaa/" className="flex">
+            <Button
+              className="w-full bg-white text-black hover:bg-gray-100 flex items-center px-4 py-3 rounded-xl relative shadow-sm transition-all duration-200 ease-in-out hover:shadow-md"
+              variant="ghost"
+            >
+              <Instagram className="h-6 w-6 absolute left-4 text-[#E4405F]" />
+              <span className="flex-grow text-center">Instagram</span>
+            </Button>
+          </a>
         </div>
       </div>
     </div>
